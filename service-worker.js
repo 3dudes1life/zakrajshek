@@ -1,4 +1,4 @@
-const VERSION = 'zak-v89-roots-20260927';
+const VERSION = 'zak-v90-roots-20260927';
 const STATIC = `${VERSION}-static`;
 const PAGES = `${VERSION}-pages`;
 const CORE = [
