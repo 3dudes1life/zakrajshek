@@ -1,0 +1,12 @@
+{
+  "updated": "2026-09-27",
+  "confidence_levels": ["proven", "probable", "unresolved"],
+  "people": [
+    {"id":"william-zakrajshek","name":"William Zakrajshek","father_id":"joseph-zakrajshek","confidence":"proven","research_status":"living generation","locations":["California"]},
+    {"id":"joseph-zakrajshek","name":"Joseph ‘Joe’ Zakrajshek","father_id":"anthony-zakrajshek","confidence":"proven","research_status":"documented family"},
+    {"id":"anthony-zakrajshek","name":"Anthony ‘Tony’ Zakrajshek","birth_date":"1919-10-10","birth_place":"Eveleth, Minnesota","death_year":1987,"father_id":"frank-zakrajshek","mother_id":"matilda-triller","confidence":"proven","research_status":"documented family","occupation":"Electrician, St. Regis Corporation, 45 years","public_service":["Sartell City Council","Mayor of Sartell, 1974–1978","Sartell volunteer fire chief"],"confirmed_photo_locations":[{"source":"Sartell Historical Society","url":"https://www.sartellhistoricalsociety.org/history/city","description":"City Council; Mayor Tony Zakrajshek identified in the center","republication_status":"permission or rights confirmation needed"}]},
+    {"id":"joseph-frank-zakrajshek-1918","name":"Joseph Frank Zakrajshek","birth_date":"1918-03-16","death_date":"1945-03-08","father_id":"frank-zakrajshek","mother_id":"matilda-triller","confidence":"proven","research_status":"documented extended family","military_service":"Technician Fifth Grade, 8th Engineer Squadron, killed in action on Luzon"},
+    {"id":"frank-zakrajshek","name":"Frank Zakrajshek","birth_year":1893,"death_year":1959,"spouse_ids":["matilda-triller"],"confidence":"proven","research_status":"American life documented; Slovenian origin under investigation","notes":["Parents unresolved","Exact Slovenian birthplace unresolved"]},
+    {"id":"matilda-triller","name":"Matilda Triller","birth_year":1901,"death_year":1997,"spouse_ids":["frank-zakrajshek"],"confidence":"proven","research_status":"documented family"}
+  ]
+}
