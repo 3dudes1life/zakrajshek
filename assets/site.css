@@ -1171,3 +1171,29 @@ h2 { letter-spacing: -0.035em; }
 .roots-site :where(h2,.family-story-card h3,.person-card h3,.archive-grid h3,.journey-group h3),.research-site :where(h1,h2,h3){letter-spacing:-.018em}
 .roots-site .name-evolution strong{font-kerning:normal;font-feature-settings:"kern" 1,"liga" 1;letter-spacing:-.012em}
 @media(max-width:700px){.roots-site .roots-hero h1{font-size:clamp(3.35rem,16vw,5.35rem);line-height:.86;letter-spacing:-.012em}.roots-site :where(h2,.family-story-card h3,.person-card h3,.archive-grid h3,.journey-group h3),.research-site :where(h1,h2,h3){letter-spacing:-.012em}}
+
+/* v9.3 — adaptive surname evolution. Never crop a family name. */
+.roots-site .name-evolution{
+  grid-template-columns:minmax(0,1fr) 28px minmax(0,1fr) 28px minmax(0,1.18fr);
+  gap:clamp(10px,1.3vw,20px);
+  width:100%;
+}
+.roots-site .name-evolution div{min-width:0}
+.roots-site .name-evolution strong{
+  display:block;
+  max-width:100%;
+  font-size:clamp(2rem,3.25vw,3.55rem);
+  line-height:.92;
+  white-space:nowrap;
+}
+.roots-site .name-evolution i{justify-self:center;font-size:clamp(1.25rem,2vw,1.8rem)}
+@media(max-width:1180px){
+  .roots-site .name-evolution{grid-template-columns:1fr;margin-bottom:90px;gap:18px}
+  .roots-site .name-evolution div{padding:22px 0;border-bottom:1px solid rgba(255,255,255,.12)}
+  .roots-site .name-evolution strong{font-size:clamp(2.5rem,8vw,4.8rem)}
+  .roots-site .name-evolution i{justify-self:start;transform:rotate(90deg);margin:-6px 0;color:var(--gold)}
+}
+@media(max-width:700px){
+  .roots-site .name-evolution{margin:35px 0 68px}
+  .roots-site .name-evolution strong{font-size:clamp(2.15rem,10.5vw,3.4rem)}
+}
