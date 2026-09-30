@@ -1,3 +1,5 @@
+const legacyPath=window.location.pathname;
+if(legacyPath.endsWith('.html')){const cleanPath=legacyPath==='/index.html'?'/':legacyPath.slice(0,-5);window.history.replaceState(window.history.state,'',cleanPath+window.location.search+window.location.hash)}
 const menuButton=document.querySelector('.menu-button');
 const mobileMenu=document.querySelector('.mobile-menu');
 let lastFocused=null;
