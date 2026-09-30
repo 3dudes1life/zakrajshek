@@ -1,0 +1,52 @@
+{
+  "updated": "2026-09-30",
+  "record_types": ["birth and baptism", "marriage", "census", "immigration", "naturalization", "church record", "military", "death and cemetery", "obituary", "newspaper", "photograph", "map", "family document"],
+  "records": [
+    {
+      "id": "joseph-sartell-military-biography",
+      "title": "Joseph Zakrajshek military biography",
+      "people": ["joseph-frank-zakrajshek-1918", "vera-perry-zakrajshek", "frank-zakrajshek", "matilda-triller"],
+      "date": "1945-03-08",
+      "location": "Luzon, Philippines",
+      "record_type": "military",
+      "source": "sartell-joseph",
+      "interpretation": "Supports Joseph's birth, parents, wife, rank, death date and place, and named siblings.",
+      "confidence": "proven",
+      "rights_notes": "Public historical-society webpage; linked, not republished."
+    },
+    {
+      "id": "sartell-wwii-memorial-roster",
+      "title": "Sartell World War II memorial roster",
+      "people": ["anthony-zakrajshek", "edward-zakrajshek", "frank-jr-zakrajshek", "joseph-frank-zakrajshek-1918", "vera-perry-zakrajshek"],
+      "date": "1949",
+      "location": "Sartell, Minnesota",
+      "record_type": "military",
+      "source": "sartell-veterans-plaque",
+      "interpretation": "Supports memorial listing only; it does not establish each person's branch, rank, unit or service dates.",
+      "confidence": "proven",
+      "rights_notes": "News report and credited photograph remain at source."
+    },
+    {
+      "id": "edward-zakrajshek-obituary",
+      "title": "Edward J. Zakrajshek obituary and community profile",
+      "people": ["edward-zakrajshek"],
+      "date": "2002-10-09",
+      "location": "Santa Paula, California",
+      "record_type": "obituary",
+      "source": "edward-obituary",
+      "interpretation": "Documents Edward's Minnesota-to-California life, Navy career, family, business and civic service.",
+      "confidence": "proven",
+      "rights_notes": "Copyrighted newspaper text; summarized and linked."
+    }
+  ],
+  "research_cases": [
+    {"id":"frank-parents","question":"Who were Frank Zakrajshek Sr.'s parents?","status":"active research","priority":1},
+    {"id":"frank-origin","question":"What was Frank's exact birthplace, parish and house number?","status":"active research","priority":2},
+    {"id":"thomas-conflict","question":"When did Thomas E. Zakrajshek die, and why does a March 1945 account call him a surviving brother?","status":"open question","priority":3},
+    {"id":"tony-service","question":"What were Anthony's branch, rank, unit and service dates?","status":"active research","priority":4},
+    {"id":"joseph-photo","question":"Can an identity-confirmed photograph of Joseph be found?","status":"active research","priority":5},
+    {"id":"vera-service-file","question":"Can Vera's WAVES service be documented from military records?","status":"active research","priority":6},
+    {"id":"frank-jr-service","question":"Can Frank Jr.'s WWII branch, rank, unit and service dates be independently verified?","status":"active research","priority":7},
+    {"id":"bloke-bridge","question":"Can the documented Frank line be connected to a Bloke or Zakraj household?","status":"open question","priority":8}
+  ]
+}
