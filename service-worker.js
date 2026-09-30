@@ -1,9 +1,9 @@
-const VERSION = 'zak-v95-village-icon-20260929';
+const VERSION = 'zak-v96-military-honor-20260930';
 const STATIC = `${VERSION}-static`;
 const PAGES = `${VERSION}-pages`;
 const CORE = [
   '/', '/index.html', '/william.html', '/about.html', '/speaking.html', '/media.html',
-  '/books-podcast.html', '/dj-will-z.html', '/out-at-the-fair.html', '/credits.html', '/research.html',
+  '/books-podcast.html', '/dj-will-z.html', '/out-at-the-fair.html', '/credits.html', '/research.html', '/military.html',
   '/404.html', '/assets/site.css', '/assets/site.js',
   '/assets/media/roots/bloke-landscape.jpg', '/assets/media/roots/iron-range-mine.jpg',
   '/assets/media/roots/slovene-wedding-eveleth-1908.jpg',
