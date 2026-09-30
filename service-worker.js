@@ -1,4 +1,4 @@
-const VERSION = 'zak-v94-brand-20260929';
+const VERSION = 'zak-v95-village-icon-20260929';
 const STATIC = `${VERSION}-static`;
 const PAGES = `${VERSION}-pages`;
 const CORE = [
