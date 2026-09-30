@@ -1,4 +1,4 @@
-const VERSION = 'zak-v93-roots-20260927';
+const VERSION = 'zak-v94-brand-20260929';
 const STATIC = `${VERSION}-static`;
 const PAGES = `${VERSION}-pages`;
 const CORE = [
@@ -8,7 +8,9 @@ const CORE = [
   '/assets/media/roots/bloke-landscape.jpg', '/assets/media/roots/iron-range-mine.jpg',
   '/assets/media/roots/slovene-wedding-eveleth-1908.jpg',
   '/assets/media/roots/st-regis-expansion-1980.jpg',
-  '/assets/media/william-caleb-daniel-life.webp', '/favicon.svg', '/site.webmanifest'
+  '/assets/media/william-caleb-daniel-life.webp', '/favicon.svg', '/site.webmanifest',
+  '/assets/favicon-32.png', '/assets/apple-touch-icon.png', '/assets/icon-192.png',
+  '/assets/icon-512.png', '/assets/icon-maskable-512.png', '/assets/og-roots.jpg'
 ];
 self.addEventListener('install', event => event.waitUntil(caches.open(STATIC).then(cache => cache.addAll(CORE)).then(() => self.skipWaiting())));
 self.addEventListener('activate', event => event.waitUntil(caches.keys().then(keys => Promise.all(keys.filter(key => !key.startsWith(VERSION)).map(key => caches.delete(key)))).then(() => self.clients.claim())));

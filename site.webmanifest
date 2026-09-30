@@ -1,12 +1,12 @@
 {
-  "name": "William Zakrajshek",
-  "short_name": "William Z",
-  "description": "Official website of founder, author, speaker and creator William Zakrajshek.",
+  "name": "Zakrajshek — A Living Family Archive",
+  "short_name": "Zakrajshek",
+  "description": "A living family archive tracing the Zakrajshek name from Slovenia to Minnesota, California and the present day.",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
-  "background_color": "#050505",
-  "theme_color": "#050505",
+  "background_color": "#08100d",
+  "theme_color": "#08100d",
   "orientation": "any",
   "icons": [
     {
